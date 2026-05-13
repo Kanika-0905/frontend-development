@@ -25,7 +25,7 @@ jobs:
       - name: Build Docker Image
         run: |
           docker build -t kanika2007/frontend-development:${{ github.sha }} .
-          docker tag kanika2007/frontend-development:${{ github.sha }} atomcodex/aws-cicd:latest
+          docker tag kanika2007/frontend-development:${{ github.sha }} kanika2007/frontend-development:latest
 
       - name: Push Docker Images
         run: |
