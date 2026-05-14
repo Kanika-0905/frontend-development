@@ -15,7 +15,7 @@ function App() {
         </div>
 
         <div className="content">
-          <h1>AI Designer Studio</h1>
+          <h1>Kanika </h1>
 
           <p className="tagline">
             Create stunning fashion, jewelry, and decor designs
